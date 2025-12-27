@@ -15,7 +15,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",          // local dev
-      "https://drivo-frontend.onrender.com" // deployed frontend
+      "https://drivo-ride-dhoq.onrender.com" // deployed frontend
     ],
     credentials: true
   })
