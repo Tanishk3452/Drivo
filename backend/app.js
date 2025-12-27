@@ -11,7 +11,15 @@ const mapsroutes = require("./Routes/maps.routes");
 const rideRoutes = require("./Routes/ride.routes");
 
 connectDB();
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",          // local dev
+      "https://drivo-ride-dhoq.onrender.com" // deployed frontend
+    ],
+    credentials: true
+  })
+);
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cookieParser());
