@@ -13,13 +13,13 @@ const rideRoutes = require("./Routes/ride.routes");
 connectDB();
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",          // local dev
-      "https://drivo-ride-dhoq.onrender.com" // deployed frontend
-    ],
-    credentials: true
+    origin: ["http://localhost:5173", "https://drivo-ride-dhoq.onrender.com"],
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cookieParser());
