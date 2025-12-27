@@ -155,11 +155,7 @@ const HomeOG = () => {
 
       {/* HEADER WITH LOGO AND LOGOUT */}
       <div className="absolute top-0 left-0 z-10 p-4 pointer-events-auto flex items-center justify-between w-full">
-        <img
-          className="w-16"
-          src="../../../public/photos/drivoBlack.png"
-          alt="Uber Logo"
-        />
+        <img className="w-16" src="/photos/drivoBlack.png" alt="Uber Logo" />
         <Link
           className="flex h-8 w-8 bg-white items-center justify-center rounded-full"
           to="/user/logout"

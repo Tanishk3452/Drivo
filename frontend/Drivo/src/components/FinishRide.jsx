@@ -43,8 +43,7 @@ const FinishRide = (props) => {
           <img
             className="h-12 w-12 rounded-full object-cover"
             src={
-              props.rideData?.user.profilePicture ||
-              "../public/photos/randompeople.jpeg"
+              props.rideData?.user.profilePicture || "/photos/randompeople.jpeg"
             }
             alt="User"
           />

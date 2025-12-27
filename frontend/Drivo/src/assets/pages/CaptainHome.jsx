@@ -102,7 +102,7 @@ const CaptainHome = () => {
       <div className="absolute inset-0 z-10 pointer-events-none">
         {/* 🔝 HEADER */}
         <div className="flex items-center justify-between w-full fixed p-4 top-0 pointer-events-auto">
-          <img className="w-16" src="../../../public/photos/drivoBlack.png" />
+          <img className="w-16" src="/photos/drivoBlack.png" />
 
           <Link
             className="flex h-8 w-8 bg-white items-center justify-center rounded-full"

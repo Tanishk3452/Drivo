@@ -45,12 +45,12 @@ const CaptainLogin = () => {
 
   return (
     <>
-      <div className="pt-8 relative z-0 bg-center bg-cover bg-[url(../public/photos/captain.jpg)] h-screen flex flex-col w-full">
+      <div className="pt-8 relative z-0 bg-center bg-cover bg-[url(/photos/captain.jpg)] h-screen flex flex-col w-full">
         <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
 
         <img
           className="ml-2 z-10 w-16"
-          src="../../../public/photos/drivoWhite.png"
+          src="/photos/drivoWhite.png"
           alt="logo"
         />
 

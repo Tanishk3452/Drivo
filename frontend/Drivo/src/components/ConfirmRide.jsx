@@ -22,7 +22,7 @@ const ConfirmRide = (props) => {
         <div className="w-full p-3 bg-white rounded-lg shadow-md flex justify-center">
           <img
             className="h-20 object-contain rounded-lg"
-            src="../public/photos/UberGo.jpeg"
+            src="/photos/UberGo.jpeg"
             alt="Vehicle"
           />
         </div>

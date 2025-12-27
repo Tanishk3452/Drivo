@@ -30,11 +30,7 @@ const CaptainRiding = () => {
 
       {/* TOP BAR */}
       <div className="absolute top-0 left-0 right-0 z-30 flex items-center justify-between p-4">
-        <img
-          className="w-16"
-          src="../../../public/photos/drivoBlack.png"
-          alt="Uber"
-        />
+        <img className="w-16" src="/photos/drivoBlack.png" alt="Uber" />
 
         <Link
           className="flex h-9 w-9 bg-white items-center justify-center rounded-full shadow"

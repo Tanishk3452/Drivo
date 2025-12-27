@@ -37,7 +37,7 @@ const Riding = () => {
         <div className="flex items-center justify-between mb-5">
           <img
             className="h-12 w-12 object-cover rounded-full"
-            src="../public/photos/UberGo.jpeg"
+            src="/photos/UberGo.jpeg"
             alt="vehicle"
           />
           <div className="text-right">

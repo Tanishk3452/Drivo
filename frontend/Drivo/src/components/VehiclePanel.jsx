@@ -22,7 +22,7 @@ const VehiclePanel = (props) => {
         }}
         className="flex mb-3 border-gray-300 hover:border-black border rounded-lg items-center w-full justify-between p-3 bg-white cursor-pointer"
       >
-        <img className="h-12" src="../public/photos/UberGo.jpeg" alt="UberGo" />
+        <img className="h-12" src="/photos/UberGo.jpeg" alt="UberGo" />
         <div className="w-1/2">
           <h4 className="font-medium text-base flex items-center">
             <span className="mr-2">Car</span>
@@ -53,7 +53,7 @@ const VehiclePanel = (props) => {
         }}
         className="flex mb-3 border-gray-300 hover:border-black border rounded-lg items-center w-full justify-between p-3 bg-white cursor-pointer"
       >
-        <img className="h-10" src="../public/photos/Uberbike.jpeg" alt="Moto" />
+        <img className="h-10" src="/photos/Uberbike.jpeg" alt="Moto" />
         <div className="w-1/2">
           <h4 className="font-medium text-base flex items-center">
             <span className="mr-2">Moto</span>
@@ -84,11 +84,7 @@ const VehiclePanel = (props) => {
         }}
         className="flex mb-3 border-gray-300 hover:border-black border rounded-lg items-center w-full justify-between p-3 bg-white cursor-pointer"
       >
-        <img
-          className="h-10"
-          src="../public/photos/UberAuto.jpeg"
-          alt="UberAuto"
-        />
+        <img className="h-10" src="/photos/UberAuto.jpeg" alt="UberAuto" />
         <div className="w-1/2">
           <h4 className="font-medium text-base flex items-center">
             <span className="mr-2">Auto</span>

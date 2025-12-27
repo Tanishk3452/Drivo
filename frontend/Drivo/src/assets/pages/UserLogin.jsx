@@ -43,12 +43,9 @@ const UserLogin = () => {
   };
 
   return (
-    <div className="pt-8 relative z-0 bg-center bg-cover bg-[url(../public/photos/user-login.webp)] h-screen flex flex-col w-full">
+    <div className="pt-8 relative z-0 bg-center bg-cover bg-[url(/photos/user-login.webp)] h-screen flex flex-col w-full">
       <div className="absolute inset-0 bg-black/4 backdrop-blur-sm"></div>
-      <img
-        className="ml-2 z-1 w-16"
-        src="../../../public/photos/drivoWhite.png"
-      />
+      <img className="ml-2 z-1 w-16" src="/photos/drivoWhite.png" />
       <div className="p-7 z-10 h-screen flex flex-col justify-between">
         <div>
           <form onSubmit={submitHandler}>

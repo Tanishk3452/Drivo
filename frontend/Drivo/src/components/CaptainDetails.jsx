@@ -17,7 +17,7 @@ const CaptainDetails = () => {
         <div className="flex items-center gap-3">
           <img
             className="h-10 w-10 rounded-full object-cover"
-            src={captain.profilePicture || "../public/photos/randompeople.jpeg"}
+            src={captain.profilePicture || "/photos/randompeople.jpeg"}
             alt="Captain Profile"
           />
           <h4 className="text-lg font-medium capitalize">
