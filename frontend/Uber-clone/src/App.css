@@ -1,0 +1,5 @@
+@import "tailwindcss";
+.leaflet-top.leaflet-right {
+  top: 50px; /* below Uber logo */
+  right: 5px;
+}
