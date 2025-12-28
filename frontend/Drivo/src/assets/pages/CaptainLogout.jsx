@@ -9,7 +9,7 @@ export const CaptainLogout = () => {
 
   const handleLogout = () => {
     axios
-      .get(`${import.meta.env.VITE_API_URL}/captains/logout`, {
+      .get(`${import.meta.env.VITE_BASE_URL}/captains/logout`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
